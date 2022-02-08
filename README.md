@@ -21,7 +21,7 @@ github link : https://github.com/shanikaprasangika/EMRNullPointerException
 * root directory -> info -> download "create executable jar.pdf" and refer it. finally, you fill get jar
 * I added jar file, and you can see it in the following location
 
-root directory -> info -> EMRNullPointerException.jar
+    root directory -> info -> EMRNullPointerException.jar
 
 ## step 02: run application on AWS EMR 
 
@@ -29,7 +29,7 @@ root directory -> info -> EMRNullPointerException.jar
 
 i attached sample output folder for your reference
 
-root directory -> info -> output
+   root directory -> info -> output
 
 
 
