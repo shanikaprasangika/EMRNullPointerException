@@ -24,13 +24,9 @@ public class EMRNullPointerExcepCount
 
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String line = value.toString();
-            StringTokenizer tokenizer = new StringTokenizer(line);
-            while (tokenizer.hasMoreTokens()) {
-                if(tokenizer.nextToken().contains("NullPointerException")){
-                    word.set(tokenizer.nextToken());
-                    context.write(word, one);
-                }
-
+            if(line.contains("NullPointerException")){
+                word.set("NullPointerException");
+                context.write(word,one);
             }
         }
     }
