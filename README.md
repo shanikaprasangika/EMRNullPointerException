@@ -27,9 +27,9 @@ github link : https://github.com/shanikaprasangika/EMRNullPointerException
 
 * root directory -> info -> download "Run application on AWS EMR.pdf" and refer it. finally, you fill get "output" file in AWS S3 location
 
-i attached sample output folder for your reference
+    i attached sample output folder for your reference
 
-   root directory -> info -> output
+    root directory -> info -> output
 
 
 
