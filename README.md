@@ -12,7 +12,27 @@ Reduce(k , list<v> values){
     emit ("NullPointerException", nullPointerExceptionCount)
 }
 
-## instructions 
+######################################### instructions #########################################
+
+github link : https://github.com/shanikaprasangika/EMRNullPointerException
+
+## step 01: create application for null pointer exception count in a log file and create executable jar file
+
+* root directory -> info -> download "create executable jar.pdf" and refer it. finally, you fill get jar
+* I added jar file, and you can see it in the following location
+
+root directory -> info -> EMRNullPointerException.jar
+
+## step 02: run application on AWS EMR 
+
+* root directory -> info -> download "Run application on AWS EMR.pdf" and refer it. finally, you fill get "output" file in AWS S3 location
+
+i attached sample output folder for your reference
+
+root directory -> info -> output
+
+
+
 
 
 
